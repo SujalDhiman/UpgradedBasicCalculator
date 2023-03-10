@@ -1,0 +1,117 @@
+*
+{
+    font-family: 'Saira';
+    box-sizing: border-box;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+h2
+{
+    color: white;
+}
+.outerContainer
+{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:380px;
+    height:670px;
+    border: 2px solid none;
+    background-color: #303234;
+}
+.show
+{
+    width:312px;
+    height: 185px;
+    border: 2px solid none;
+    border-radius: 8px;
+    box-shadow: inset -9px -9px 16px rgba(73, 73, 73, 0.5), inset 9px 9px 16px rgba(0, 0, 0, 0.35);
+}
+input
+{
+    position: relative;
+    top:80px;
+    left:32px;
+    width:250px;
+    height:40px;
+    border: none;
+    background-color: #303234;
+    caret-color: white;
+}
+input:focus
+{
+    outline: none;
+}
+#pos
+{
+    position: relative;
+    top:7px;
+}
+.arrangeButtons
+{
+    position: relative;
+    top:8px;
+    left:8px;
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+    grid-template-rows: repeat(5,70px);
+    grid-gap:10px;
+}
+.center
+{
+    width:330px;
+    height:410px;
+}
+#clear1
+{
+    grid-column: 1/2;
+}
+.submit
+{
+    grid-column: 3/5;
+}
+button
+{
+    color:white;
+    font-weight: 400;
+    font-size: 36px;
+    background-color: #303234;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: -9px -9px 16px rgba(73, 73, 73, 0.4), 9px 9px 16px rgba(0, 0, 0, 0.3);
+    transition: .3s;
+}
+.operand
+{
+    color:#04E474;
+}
+.submit
+{
+    background-color: #04E474;
+    color: white;
+}
+
+#pwd
+{
+    color: #04E474;
+    font-weight: 400;
+    font-size: 45px;
+}
+#finalDisplay
+{
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+}
+button:hover
+{
+    box-shadow: 0px 0px 5px #04E474,
+                0px 1px 5px  #04E474,
+                0px -1px 5px  #04E474,
+                1px 1px 4px #04E474;
+}
