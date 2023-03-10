@@ -19,10 +19,7 @@ function displayOnInput(val1)
     }
     else if (val1 === ".") 
     {
-        if (!display.value.includes(".")) 
-        {
-          display.value =display.value+val1;
-        }
+        display.value =display.value+val1;
     } 
     else if (display.value === "0") 
     {
