@@ -1,7 +1,7 @@
 let buttonPress=document.querySelectorAll(".btn")
 let display = document.querySelector("#pwd");
-display.focus()
 let display2=document.querySelector("#finalDisplay")
+display.focus()
 buttonPress.forEach((element,index)=>
 {
     buttonPress[index].addEventListener("click",()=>
